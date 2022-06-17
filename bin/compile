@@ -31,3 +31,5 @@ EOM
 fi
 
 $heroku_buildpack_ruby_dir/bin/ruby $BIN_DIR/support/ruby_compile $@
+bundle config list
+
